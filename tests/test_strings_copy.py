@@ -16,4 +16,4 @@ payment= 100
 #@pytest.mark.skipif(a<=15, reason="It should work only after day 15")
 @pytest.mark.order(2)
 def test_payment():
-    assert payment == 100
+    assert payment == 89
