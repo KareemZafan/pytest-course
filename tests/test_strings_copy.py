@@ -3,7 +3,7 @@ import pytest
 
 @pytest.mark.order(1)
 def test_capitalize():
-    assert st.capitalize("kareem") == "kareem"
+    assert st.capitalize("kareem") == "Kareem"
 
 @pytest.mark.order(3)
 def test_end_With():
